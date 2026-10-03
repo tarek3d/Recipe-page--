@@ -1,0 +1,141 @@
+:root {
+    --white: #ffffff;
+    --Stone-100: hsl(30, 54%, 90%);
+    --Stone-150: hsl(30, 18%, 87%);
+    --Stone-600: hsl(30, 10%, 34%);
+    --Stone-900: hsl(24, 5%, 18%);
+    --Brown-800: hsl(14, 45%, 36%);
+    --Rose-800: hsl(332, 51%, 32%);
+    --Rose-50: hsl(330, 100%, 98%);
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Young Serif";
+}
+body {
+    background-color: var(--Stone-100);
+}
+.con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+.card {
+    background-color: var(--white);
+    width: 46rem;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 40px 0px 40px 0px;
+
+}
+img {
+    width: 100%;
+    /* margin-bottom: 20px; */
+}
+.text1 h1 {
+    font-weight: 500;
+    padding: 20px 0px 15px 0px;
+    margin-bottom: 10px;
+}
+.text1 p {
+    color: var(--Stone-900);
+    padding-bottom: 20px;
+}
+.text2 {
+    background-color: var(--Rose-50);
+    padding: 30px;
+    border-radius: 10px;
+}
+.text2 h3 {
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0px 0px 10px -16px;
+    color: var(--Rose-800);
+}
+.text2 li {
+    color: var(--Stone-600);
+    padding-bottom: 10px;
+}
+.text2 li::marker {
+    color: var(--Rose-800);
+}
+.word {
+    display: inline;
+    color: var(--Stone-900);
+    font-weight: 900;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.text2 span {
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.text3 {
+    padding: 30px;
+}
+.text3 h1 {
+    font-weight: 500;
+    margin: 0px 0px 10px -16px;
+    color: var(--Brown-800);
+}
+.text3 li {
+        padding-bottom: 10px;
+}
+.text3 li::marker {
+    color: var(--Brown-800);
+}
+.text3 li span {
+    color: var(--Stone-600);
+    font-family: sans-serif;
+    font-weight: 400;
+    margin: 0px 0px 10px 10px;
+}
+.text4 {
+    padding: 30px;
+}
+.text4 h1 {
+    font-weight: 500;
+    margin: 0px 0px 10px -16px;
+    color: var(--Brown-800);
+}
+.text4 li {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    color: var(--Stone-600);
+}
+.text4 li::marker {
+    color: var(--Rose-800);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.text5 {
+    padding: 30px;
+}
+.text5 h1 {
+    font-weight: 500;
+    margin: 0px 0px 10px -16px;
+    color: var(--Brown-800);
+}
+#dis {
+    color: var(--Stone-600);
+    padding: 10px 0px 20px 0px;
+    margin-left: -16px;
+}
+.class1,.class2,.class3,.class4 {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.text5 p {
+    font-family: sans-serif;
+    padding: 20px;
+}
+.bold {
+    font-weight: bold;
+    color: var(--Brown-800);
+}
+.black {
+    color: var(--Stone-600);
+}
